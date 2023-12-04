@@ -1,0 +1,1415 @@
+{
+  "compartments": [
+    {
+      "compartment_id": null,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-01T19:35:17.187Z"
+        }
+      },
+      "description": "Testcompartment for okt & Terraform",
+      "display_name": "okit",
+      "documentation": "",
+      "freeform_tags": {},
+      "id": "ocid1.compartment.oc1..aaaaaaaazssgidvryyk3ptjq35dstrbjoc3ndub6lznuhnuqgqommezjddfa",
+      "lifecycle_state": "ACTIVE",
+      "okit_reference": "okit-256e082f-f8c7-4aa8-910a-c1d2e4205fd8",
+      "read_only": false,
+      "resource_name": "Okit_857cddee5ba5440daf16e40e038ad535",
+      "show_connections": false,
+      "time_created": "2023-12-01T19:35:17.248000+00:00"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaazssgidvryyk3ptjq35dstrbjoc3ndub6lznuhnuqgqommezjddfa",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T00:37:27.886Z"
+        }
+      },
+      "description": "compartments for instances",
+      "display_name": "QMInstComp",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-ff028d0c-2ea7-4425-845f-dde6f0ac7ab8",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.compartment.oc1..aaaaaaaaiaj3rw5kmtfzvlapibjednkxqkcowyloo6fd2wahujfi7eqqor7q",
+      "lifecycle_state": "ACTIVE",
+      "okit_reference": "okit-fa9e9d6f-abb8-4c64-8f38-ed4c7abf62e0",
+      "read_only": false,
+      "resource_name": "Okit_6f8394f5a1024176b7c7d011fa004a2d",
+      "show_connections": false,
+      "time_created": "2023-12-02T00:37:27.961000+00:00"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaazssgidvryyk3ptjq35dstrbjoc3ndub6lznuhnuqgqommezjddfa",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:17:35.342Z"
+        }
+      },
+      "description": "Compartment for Networks",
+      "display_name": "QMNetComp",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-7e5cfeee-110c-40f6-9868-889b9a464386",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "lifecycle_state": "ACTIVE",
+      "okit_reference": "okit-1f7494ea-58ab-4b81-a9bf-57ecbb14ac7b",
+      "read_only": false,
+      "resource_name": "Okit_287ec2af89c941eca1e4c6da503cb322",
+      "show_connections": false,
+      "time_created": "2023-12-02T22:17:35.398000+00:00"
+    }
+  ],
+  "defined_tags": {},
+  "dhcp_options": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T03:19:02.126Z"
+        }
+      },
+      "display_name": "QMvcn03dhcp",
+      "documentation": "",
+      "domain_name_type": "CUSTOM_DOMAIN",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-b877102d-de1c-41f4-857f-790f6477b540",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaavhsgwrtg3ricmoiqjtahlbjtju745ozmpbuw5gget3qzubavmpnq",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-38b466da-dead-42a6-97ce-dfc5a13071c7",
+      "options": [
+        {
+          "custom_dns_servers": [],
+          "search_domain_names": [],
+          "server_type": "VcnLocalPlusInternet",
+          "type": "DomainNameServer"
+        },
+        {
+          "search_domain_names": [
+            "okvcn.oraclevcn.com"
+          ],
+          "type": "SearchDomain"
+        }
+      ],
+      "read_only": false,
+      "resource_name": "Okit_cfa95029fa6f44fdb4e720434d576197",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:19:02.449000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqacpq7qqe3ugii73jd2b2h2xafrwaiuuflqaxwavibiogq"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:31.869Z"
+        }
+      },
+      "display_name": "QMvcn01dhcp",
+      "documentation": "",
+      "domain_name_type": "CUSTOM_DOMAIN",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-0d6f381d-5fc6-492a-b62a-d10a97505aef",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaa3rv33laafroj3zflugmvqqydixhzrdu5ku2tzobaku7zpftr7bna",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-826060a2-eb4f-429f-86d0-ec0daa9c1c14",
+      "options": [
+        {
+          "custom_dns_servers": [],
+          "search_domain_names": [],
+          "server_type": "VcnLocalPlusInternet",
+          "type": "DomainNameServer"
+        },
+        {
+          "search_domain_names": [
+            "qmvcn01.oraclevcn.com"
+          ],
+          "type": "SearchDomain"
+        }
+      ],
+      "read_only": false,
+      "resource_name": "Okit_6e70de1d9aa445a9a38415896396ea17",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.588000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:23:54.847Z"
+        }
+      },
+      "display_name": "QMvcn02dhcp01",
+      "documentation": "",
+      "domain_name_type": "CUSTOM_DOMAIN",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-c9ed6447-3aec-4de7-a20a-5fd09ced1541",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaaicpdmbji5o4nczoenn6jyewtor3wfwq3ohwmgywqq7xnd7gmgzha",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-41f6e458-f60b-45cd-bb24-e7f2ec5450a9",
+      "options": [
+        {
+          "custom_dns_servers": [],
+          "search_domain_names": [],
+          "server_type": "VcnLocalPlusInternet",
+          "type": "DomainNameServer"
+        },
+        {
+          "search_domain_names": [
+            "qmvcn02.oraclevcn.com"
+          ],
+          "type": "SearchDomain"
+        }
+      ],
+      "read_only": false,
+      "resource_name": "Okit_cc2cebc3e9fb4ce7815e3757021af7d6",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.586000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    }
+  ],
+  "documentation": "# Description\n__Created 2023-12-3 4:19:50__\n\n--------------------------------------\n\n",
+  "freeform_tags": {},
+  "internet_gateways": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.496Z"
+        }
+      },
+      "display_name": "QMvcn01igw",
+      "documentation": "",
+      "enabled": true,
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-0bd5b1ee-804b-446c-a0a0-a52cd3831f1a",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.internetgateway.oc1.eu-frankfurt-1.aaaaaaaanugpqrpxnsvkn6jm5humvfehph6st4i3erubjurvswmgiivwnrlq",
+      "is_enabled": true,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-0aba2deb-2c17-43c0-b70e-dfa04f28b31c",
+      "read_only": false,
+      "resource_name": "Okit_ddbd6788be5748f1912c7aef51abe4b4",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.511000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    }
+  ],
+  "local_peering_gateways": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:39:27.047Z"
+        }
+      },
+      "display_name": "QMvcn01lpg01",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-11cd4b08-6656-4b8d-9cb2-43a233079279",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaa3snarqtkjqkwzico77lvfydabtwarnnwt5cqlspncx3gg5shdpza",
+      "is_cross_tenancy_peering": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-b3beec1a-20e5-4235-94b5-2e6dff42b68b",
+      "peer_advertised_cidr": "192.168.0.0/16",
+      "peer_advertised_cidr_details": [
+        "192.168.0.0/16"
+      ],
+      "peer_id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaac5b254dzgg2zg5mzyjc5cfyabk4nqmci4n4efhcwql2rgiodi3eq",
+      "peering_status": "PEERED",
+      "peering_status_details": "Connected to a peer.",
+      "read_only": false,
+      "resource_name": "Okit_d32d792dd3c54baaa6aed2399759d2ee",
+      "route_table_id": "",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.896000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:40:00.282Z"
+        }
+      },
+      "display_name": "QMvcn02lpg01",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-f63dd841-80f3-4a6c-9159-05e4de86d738",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaac5b254dzgg2zg5mzyjc5cfyabk4nqmci4n4efhcwql2rgiodi3eq",
+      "is_cross_tenancy_peering": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-4a7a5608-74ff-4dfe-9a04-5b59437f68df",
+      "peer_advertised_cidr": "10.0.0.0/16",
+      "peer_advertised_cidr_details": [
+        "10.0.0.0/16"
+      ],
+      "peer_id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaa3snarqtkjqkwzico77lvfydabtwarnnwt5cqlspncx3gg5shdpza",
+      "peering_status": "PEERED",
+      "peering_status_details": "Connected to a peer.",
+      "read_only": false,
+      "resource_name": "Okit_5a4af84244af4b7dbe250c11cac01f9b",
+      "route_table_id": "",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.977000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    }
+  ],
+  "metadata": {
+    "created": "2023-12-3 4:19:50",
+    "file": {
+      "generate_terraform": true,
+      "name": "/QMociTerraform/ocimport_v11.json",
+      "terraform_dir": "/QMociTerraform/ocimport_v11"
+    },
+    "okit_model_id": "okit-model-1cdb721d-2479-463b-8771-a88ff9512fde",
+    "okit_version": "0.56.0",
+    "platform": "oci",
+    "resource_count": 137,
+    "updated": "2023-12-3 4:19:50"
+  },
+  "nat_gateways": [
+    {
+      "block_traffic": false,
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.507Z"
+        }
+      },
+      "display_name": "QMvcn01ngw",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-0c082bca-57bb-4669-ba0a-2ef41c236f74",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaaemkwsia7ls4s67la2pejngd4e6bhv3772flgxfhy5c6bcagvznra",
+      "lifecycle_state": "AVAILABLE",
+      "nat_ip": "130.162.50.227",
+      "okit_reference": "okit-c743679c-21aa-45ab-b948-0013d221f674",
+      "public_ip_id": "ocid1.publicip.oc1.eu-frankfurt-1.aaaaaaaalvekap7kgn4ii6umptdo5osskxscn5cg6ebypxm27tsqwuluoqbq",
+      "read_only": false,
+      "resource_name": "Okit_0e044f27d4a349b68f53d3f38debe187",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.793000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "block_traffic": false,
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:44:51.126Z"
+        }
+      },
+      "display_name": "vcn02s01ngw",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-d37e2252-e414-4761-b067-02cbb6917fad",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaazzvxtbskquscuak7nj5u2v2eqlz6x77ayabizlhhp6yyxukcroqa",
+      "lifecycle_state": "AVAILABLE",
+      "nat_ip": "158.180.28.189",
+      "okit_reference": "okit-4adaecd8-9681-4d09-ae13-2e1b68b8dac2",
+      "public_ip_id": "ocid1.publicip.oc1.eu-frankfurt-1.aaaaaaaayhb7cs3rxyxcdbpld7ioyjb3nme3n2s5og6r62ec3hpq2v422iwa",
+      "read_only": false,
+      "resource_name": "Okit_6a7018cf56184c22a9fccdb9eb8ed7f7",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.387000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    }
+  ],
+  "network_security_groups": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T02:06:02.161Z"
+        }
+      },
+      "display_name": "Qvcn01nsg02-http",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-f3a91117-75b8-49e2-90b3-61f11139cd62",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaac6tiscpkddpsk4ywch4f6qiiengud236l3gcmnmg5mjuodpbahda",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-5f45b0b3-da23-4ef7-a298-67a1eba5c422",
+      "read_only": false,
+      "resource_name": "Okit_f183bc3fb5e3470cbdb3118ef0ec55d5",
+      "security_rules": [
+        {
+          "description": "http transport",
+          "direction": "INGRESS",
+          "id": "FE70C7",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaac6tiscpkddpsk4ywch4f6qiiengud236l3gcmnmg5mjuodpbahda",
+          "protocol": "6",
+          "resource_name": "Okit_f183bc3fb5e3470cbdb3118ef0ec55d5_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 80,
+              "min": 80
+            },
+            "source_port_range": {
+              "max": 80,
+              "min": 80
+            }
+          },
+          "time_created": "2023-12-03T03:01:18.424000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:18.050000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:50:43.621Z"
+        }
+      },
+      "display_name": "vcn02sn01nsg02-http",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-7f981c19-89ff-4cef-b746-48f88bb4f2ff",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaafiajuzfeloxm5bq3tpbpv57ki4zzzrqrcqd2czwc6m7qiwe75nga",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-e30f9c15-d30b-479b-ac54-ca71b02070f6",
+      "read_only": false,
+      "resource_name": "Okit_c644c707fdd34618aa9b868197c843e4",
+      "security_rules": [
+        {
+          "description": "http transport",
+          "direction": "INGRESS",
+          "id": "2F43FA",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaafiajuzfeloxm5bq3tpbpv57ki4zzzrqrcqd2czwc6m7qiwe75nga",
+          "protocol": "6",
+          "resource_name": "Okit_c644c707fdd34618aa9b868197c843e4_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 80,
+              "min": 80
+            },
+            "source_port_range": {
+              "max": 80,
+              "min": 80
+            }
+          },
+          "time_created": "2023-12-03T03:12:25.766000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.795000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T02:06:01.842Z"
+        }
+      },
+      "display_name": "QMvn01nsg01-ssh",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-c57be784-028e-4de7-9b19-3c26d0fb4cb3",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaatkcx2h2z2f2ipakidaizgoxu3rrdbxhojq3a7mbhzdjuhoqkfj7q",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-25928395-ccba-46fe-bad5-cb222b766148",
+      "read_only": false,
+      "resource_name": "Okit_ab8f7d1bbf1c4d2395f83a174b53863f",
+      "security_rules": [
+        {
+          "description": "tcp",
+          "direction": "INGRESS",
+          "id": "033E1D",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaatkcx2h2z2f2ipakidaizgoxu3rrdbxhojq3a7mbhzdjuhoqkfj7q",
+          "protocol": "6",
+          "resource_name": "Okit_ab8f7d1bbf1c4d2395f83a174b53863f_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 20
+            },
+            "source_port_range": {
+              "max": 22,
+              "min": 20
+            }
+          },
+          "time_created": "2023-12-03T03:01:18.108000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.543000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T02:06:01.721Z"
+        }
+      },
+      "display_name": "QMvn01nsg03-https",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-47b8d429-4bc4-4583-996b-891d15d781fb",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaaooxgfozl7jwjedvfd7zmk3wye2xlc2mhww6y7hyv47uwpiydisza",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-6746d7f6-5fb3-4398-be70-d24a4b7812db",
+      "read_only": false,
+      "resource_name": "Okit_92e071da07d546e0a53e8acafc9f0787",
+      "security_rules": [
+        {
+          "description": "htps transport",
+          "direction": "INGRESS",
+          "id": "948B2D",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaaooxgfozl7jwjedvfd7zmk3wye2xlc2mhww6y7hyv47uwpiydisza",
+          "protocol": "6",
+          "resource_name": "Okit_92e071da07d546e0a53e8acafc9f0787_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 443,
+              "min": 443
+            },
+            "source_port_range": {
+              "max": 443,
+              "min": 443
+            }
+          },
+          "time_created": "2023-12-03T03:01:17.980000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.201000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:50:43.621Z"
+        }
+      },
+      "display_name": "vcn02sn01nsg02-https",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-d7192dbe-6fd2-4d76-962f-151d23267ae0",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaaxlarpdleldjgu3xwrxs7kytabb3namd4kd32kmssgcxessjhmsya",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-075e6847-aed5-4237-b04c-93e917f6cadd",
+      "read_only": false,
+      "resource_name": "Okit_cbeb5c7bd1434afaa2009ab7752e416f",
+      "security_rules": [
+        {
+          "description": "https",
+          "direction": "INGRESS",
+          "id": "B23B31",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaaxlarpdleldjgu3xwrxs7kytabb3namd4kd32kmssgcxessjhmsya",
+          "protocol": "6",
+          "resource_name": "Okit_cbeb5c7bd1434afaa2009ab7752e416f_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 80,
+              "min": 80
+            },
+            "source_port_range": {
+              "max": 80,
+              "min": 80
+            }
+          },
+          "time_created": "2023-12-03T03:12:25.741000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.190000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:50:43.621Z"
+        }
+      },
+      "display_name": "vcn02sn01nsg01-ssh",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-8d004af7-43dc-4bfa-8ce0-54f900c2aa71",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaa5g4gewvo7w6khygx5mbzgncnfoj33ef2inhdc2xczthnpbngmlaa",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-429f152d-5bd6-4d30-bf9c-e515a52d2388",
+      "read_only": false,
+      "resource_name": "Okit_00f6f16495ef4b59bbf8c42d080fb34d",
+      "security_rules": [
+        {
+          "description": "ssh traffic",
+          "direction": "INGRESS",
+          "id": "DC95B8",
+          "is_stateless": false,
+          "is_valid": true,
+          "network_security_group_id": "ocid1.networksecuritygroup.oc1.eu-frankfurt-1.aaaaaaaa5g4gewvo7w6khygx5mbzgncnfoj33ef2inhdc2xczthnpbngmlaa",
+          "protocol": "6",
+          "resource_name": "Okit_00f6f16495ef4b59bbf8c42d080fb34d_Rule1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 20
+            },
+            "source_port_range": {
+              "max": 22,
+              "min": 20
+            }
+          },
+          "time_created": "2023-12-03T03:07:05.255000+00:00"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.163000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    }
+  ],
+  "route_tables": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T03:19:02.126Z"
+        }
+      },
+      "display_name": "QMvcn03rt01",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-0838f4c1-424e-4431-904b-e81424a850f1",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaaleqxqmb2ni5tnl635y7fjjtchpril7zormx4kenqstfh6sp5f33a",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-8a22b1b2-eb15-4336-8bf2-f0cbb4dd67f6",
+      "read_only": false,
+      "resource_name": "Okit_e616c240510f4dc0900425526133ad4e",
+      "route_rules": [],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:19:02.196000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqacpq7qqe3ugii73jd2b2h2xafrwaiuuflqaxwavibiogq"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": false,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:41:47.753Z"
+        }
+      },
+      "display_name": "QMvcn01rt02lpg",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-7aa424ac-c0c0-4edd-a3f9-a8c84d1d77d4",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaasuwninzabhcrq3vcn36aak55ncybnowwmnxlcul3hzz2ztxwrxjq",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-7d115785-1ed2-4574-9f6c-6235c3b62640",
+      "read_only": false,
+      "resource_name": "Okit_2d03e11e26054f5b82f41c59c5659a9b",
+      "route_rules": [
+        {
+          "destination": "192.168.0.0/16",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaa3snarqtkjqkwzico77lvfydabtwarnnwt5cqlspncx3gg5shdpza",
+          "route_type": "STATIC",
+          "target_type": "local_peering_gateway"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:27.598000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": false,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.598Z"
+        }
+      },
+      "display_name": "QMvcn01s01",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-094f1e82-368e-435e-8019-664bd426d8cf",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaacgu3w7hahbgdmwbqfqf2it6ekugysclop7fo2d3h3apap4k42cea",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-5b13903f-dc69-46eb-867e-4153884da5b8",
+      "read_only": false,
+      "resource_name": "Okit_abcd96909fce4507918b8dc6397baf32",
+      "route_rules": [
+        {
+          "destination": "all_services_destination",
+          "destination_type": "SERVICE_CIDR_BLOCK",
+          "network_entity_id": "ocid1.servicegateway.oc1.eu-frankfurt-1.aaaaaaaanphchxe7iiovjhhnepqu36mzn37kavaa3apvrt6nbjkexc7epsgq",
+          "route_type": "STATIC",
+          "target_type": "service_gateway"
+        },
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaaemkwsia7ls4s67la2pejngd4e6bhv3772flgxfhy5c6bcagvznra",
+          "route_type": "STATIC",
+          "target_type": "nat_gateway"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:18.906000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": false,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:40:52.366Z"
+        }
+      },
+      "display_name": "QMvcn02rt02lpg",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-b2ccc1f1-c748-4aba-a2e5-34a81283e87a",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa35qth2sofglmb2xoakxa5uv7njwaud56kustowq5lfifzlzb2kva",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-7d1feb0b-b5aa-413e-b591-d827e0cfd29b",
+      "read_only": false,
+      "resource_name": "Okit_b99bc1cfa7b1488189ad13719289faee",
+      "route_rules": [
+        {
+          "destination": "10.0.0.0/16",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaac5b254dzgg2zg5mzyjc5cfyabk4nqmci4n4efhcwql2rgiodi3eq",
+          "route_type": "STATIC",
+          "target_type": "local_peering_gateway"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.872000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:23:54.847Z"
+        }
+      },
+      "display_name": "QMvcn02sn01",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-4fc6313e-7d28-4f4e-b93a-ca2f3de0c789",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa6xtxczky6omdwww3qofjjykqwg7feyg4xvur7xxazey3g6odmn5q",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-587555d0-0f77-4a8c-a19b-5ef287ea925d",
+      "read_only": false,
+      "resource_name": "Okit_64fe137b9ab6450189eaaa7238cf9717",
+      "route_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.natgateway.oc1.eu-frankfurt-1.aaaaaaaazzvxtbskquscuak7nj5u2v2eqlz6x77ayabizlhhp6yyxukcroqa",
+          "route_type": "STATIC",
+          "target_type": "nat_gateway"
+        },
+        {
+          "destination": "10.0.0.0/16",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.localpeeringgateway.oc1.eu-frankfurt-1.aaaaaaaac5b254dzgg2zg5mzyjc5cfyabk4nqmci4n4efhcwql2rgiodi3eq",
+          "route_type": "STATIC",
+          "target_type": "local_peering_gateway"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.420000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:31.869Z"
+        }
+      },
+      "display_name": "QMvcn01rt01",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-39931319-06e3-482e-ad4b-be7ff62189ae",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaaryhmrcdphiqf3sjair5yrmcdkyeonsiauinwhdwtiskut634ye3a",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-160d5bc0-9e3a-4728-b1f6-ac2c28259fd4",
+      "read_only": false,
+      "resource_name": "Okit_b9883997a0114698a048ef0f9598ffb3",
+      "route_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.internetgateway.oc1.eu-frankfurt-1.aaaaaaaanugpqrpxnsvkn6jm5humvfehph6st4i3erubjurvswmgiivwnrlq",
+          "route_type": "STATIC",
+          "target_type": "internet_gateway"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.411000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    }
+  ],
+  "security_lists": [
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T03:19:02.126Z"
+        }
+      },
+      "display_name": "QMvcn03sl01",
+      "documentation": "",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-a340a71d-435b-42e6-b721-21f0e7a3d29e",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaazg5fydmkvxmi7etikkpwzis5opmg6r6outwsggeouzqb7lp7ylcq",
+      "ingress_security_rules": [
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.1.0.0/16",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-455abbad-bef7-4356-9a18-63bb679ff990",
+      "read_only": false,
+      "resource_name": "Okit_5571ba5143254d86b2ae547b1abb9cca",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:19:02.196000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqacpq7qqe3ugii73jd2b2h2xafrwaiuuflqaxwavibiogq"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": false,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.779Z"
+        }
+      },
+      "display_name": "QMvcn01sl01",
+      "documentation": "",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-4901fe8c-1055-4b4c-af33-beff6a2ece94",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaar7vr6c3b7slkvm7jgrvlqnmeaz6he7aqgyjwmmuotudkqzdwhhbq",
+      "ingress_security_rules": [
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-0de3ff66-94ef-47cc-9729-71f67922b47f",
+      "read_only": false,
+      "resource_name": "Okit_0a3e8966a65e419eb04fe1d3f2da172a",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.199000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:23:54.847Z"
+        }
+      },
+      "display_name": "QMvcn02sl01",
+      "documentation": "",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "icmp_options": {
+            "code": 8,
+            "type": 8
+          },
+          "is_stateless": false,
+          "protocol": "1"
+        }
+      ],
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-87455b61-3e83-4b4e-bea5-c4063fabbd45",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaazv5nndwnquj3l3tnpyt45ax2nj4k2lhiy6ncvulslrccgp5rlyiq",
+      "ingress_security_rules": [
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-cc6945e8-28b4-479f-a428-5029935dc4b7",
+      "read_only": false,
+      "resource_name": "Okit_225b68a6768245dcb637a72daae53dfa",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.420000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa"
+    },
+    {
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "default": true,
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:31.869Z"
+        }
+      },
+      "display_name": "QMvcn01s01",
+      "documentation": "",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "icmp_options": {
+            "code": 8,
+            "type": 8
+          },
+          "is_stateless": false,
+          "protocol": "1"
+        }
+      ],
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-d1194714-8659-4b70-bd59-cad58a72f731",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaat3bqylobqmnvvu5mkdcisnoxqkzlez4bfrw3xana6e3sjolwa6ia",
+      "ingress_security_rules": [
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-b81ae94a-67cc-4d9d-9096-4499368093bf",
+      "read_only": false,
+      "resource_name": "Okit_2ede6355d73745c98f12143c49b24a8b",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.411000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    }
+  ],
+  "service_gateways": [
+    {
+      "block_traffic": false,
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.685Z"
+        }
+      },
+      "display_name": "QMvcn01sgw",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-e5649b19-7074-40ea-8546-6c51a87dc2b6",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.servicegateway.oc1.eu-frankfurt-1.aaaaaaaanphchxe7iiovjhhnepqu36mzn37kavaa3apvrt6nbjkexc7epsgq",
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-ea1b9116-5cbf-4f24-9bd7-43c2988f46df",
+      "read_only": false,
+      "resource_name": "Okit_3e83fbf7f2554f3b97b91e36d52dc803",
+      "route_table_id": "",
+      "service_name": "All",
+      "services": [
+        {
+          "service_id": "ocid1.service.oc1.eu-frankfurt-1.aaaaaaaa7ncsqkj6lkz36dehifizupyn6qjqsmtepsegs23yyntnsy7qrvea",
+          "service_name": "All FRA Services In Oracle Services Network"
+        }
+      ],
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:17.742000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa"
+    }
+  ],
+  "subnets": [
+    {
+      "availability_domain": "0",
+      "cidr_block": "192.168.2.0/24",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:29:53.808Z"
+        }
+      },
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaaicpdmbji5o4nczoenn6jyewtor3wfwq3ohwmgywqq7xnd7gmgzha",
+      "display_name": "vcn02sn02",
+      "dns_label": "vcn02sn02",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-6d5a6eac-2ed2-46ec-b284-ab4936e4b858",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaamppdho25wpivvbwjteyl6svfpovrihvhfhheg4jaj25z5cfc2qza",
+      "ipv6cidr_block": "",
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-b46066ba-3e88-4b4b-bf1f-6c529b630381",
+      "prohibit_internet_ingress": true,
+      "prohibit_public_ip_on_vnic": true,
+      "read_only": false,
+      "resource_name": "Okit_496913e2c9ba4e9d961bff582cd07d8f",
+      "route_table_id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa6xtxczky6omdwww3qofjjykqwg7feyg4xvur7xxazey3g6odmn5q",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaazv5nndwnquj3l3tnpyt45ax2nj4k2lhiy6ncvulslrccgp5rlyiq"
+      ],
+      "show_connections": false,
+      "subnet_domain_name": "vcn02sn02.qmvcn02.oraclevcn.com",
+      "time_created": "2023-12-03T03:01:19.629000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa",
+      "virtual_router_ip": "192.168.2.1",
+      "virtual_router_mac": "00:00:17:53:15:4A"
+    },
+    {
+      "availability_domain": "0",
+      "cidr_block": "192.168.1.0/24",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:29:03.378Z"
+        }
+      },
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaaicpdmbji5o4nczoenn6jyewtor3wfwq3ohwmgywqq7xnd7gmgzha",
+      "display_name": "QMvcn02s01",
+      "dns_label": "qmvcn02s01",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-f07d8b72-1182-4deb-91d2-8eed36145609",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaakeh2b76xz64qr4lz4xr4bvcyq63m5ijld5qbzj2crfbpaic4d7eq",
+      "ipv6cidr_block": "",
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-99d24f14-340a-47c8-bbf6-6198b5228993",
+      "prohibit_internet_ingress": true,
+      "prohibit_public_ip_on_vnic": true,
+      "read_only": false,
+      "resource_name": "Okit_5589bd010f194b2f941eac1a5726d92d",
+      "route_table_id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaa6xtxczky6omdwww3qofjjykqwg7feyg4xvur7xxazey3g6odmn5q",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaazv5nndwnquj3l3tnpyt45ax2nj4k2lhiy6ncvulslrccgp5rlyiq"
+      ],
+      "show_connections": false,
+      "subnet_domain_name": "qmvcn02s01.qmvcn02.oraclevcn.com",
+      "time_created": "2023-12-03T03:01:19.345000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa",
+      "virtual_router_ip": "192.168.1.1",
+      "virtual_router_mac": "00:00:17:53:15:4A"
+    },
+    {
+      "availability_domain": "0",
+      "cidr_block": "10.0.0.0/24",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:32.479Z"
+        }
+      },
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaa3rv33laafroj3zflugmvqqydixhzrdu5ku2tzobaku7zpftr7bna",
+      "display_name": "QMvnc01s01",
+      "dns_label": "sub12022221180",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-38d2131f-803a-4247-b39c-c083de7cf23d",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.subnet.oc1.eu-frankfurt-1.aaaaaaaany2kxj43ymp5w7doiewd3dlrvtgsbyxze64okmccffbniaehstba",
+      "ipv6cidr_block": "",
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-25208d9b-22d6-4308-84f9-2875957bf24c",
+      "prohibit_internet_ingress": false,
+      "prohibit_public_ip_on_vnic": false,
+      "read_only": false,
+      "resource_name": "Okit_7a710c6e067846878a5bed64db66b0cb",
+      "route_table_id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaaryhmrcdphiqf3sjair5yrmcdkyeonsiauinwhdwtiskut634ye3a",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaat3bqylobqmnvvu5mkdcisnoxqkzlez4bfrw3xana6e3sjolwa6ia"
+      ],
+      "show_connections": false,
+      "subnet_domain_name": "sub12022221180.qmvcn01.oraclevcn.com",
+      "time_created": "2023-12-03T03:01:18.680000+00:00",
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa",
+      "virtual_router_ip": "10.0.0.1",
+      "virtual_router_mac": "00:00:17:33:27:74"
+    },
+    {
+      "availability_domain": "0",
+      "cidr_block": "172.16.1.0/24",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {},
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.eu-frankfurt-1.aaaaaaaavhsgwrtg3ricmoiqjtahlbjtju745ozmpbuw5gget3qzubavmpnq",
+      "display_name": "QMvcn03s01",
+      "dns_label": "qmvcns",
+      "documentation": "",
+      "freeform_tags": {},
+      "id": "okit.subnet.742db6b2-fe3e-4208-b864-b972d30537d3",
+      "ipv6cidr_block": "",
+      "ipv6cidr_blocks": "",
+      "is_ipv6enabled": false,
+      "okit_reference": "okit-8e5496a5-b116-454f-85f8-04eb0189ccbc",
+      "prohibit_public_ip_on_vnic": true,
+      "read_only": false,
+      "resource_name": "Okit_S_1701573713155",
+      "route_table_id": "ocid1.routetable.oc1.eu-frankfurt-1.aaaaaaaaleqxqmb2ni5tnl635y7fjjtchpril7zormx4kenqstfh6sp5f33a",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.eu-frankfurt-1.aaaaaaaazg5fydmkvxmi7etikkpwzis5opmg6r6outwsggeouzqb7lp7ylcq"
+      ],
+      "show_connections": false,
+      "vcn_id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqacpq7qqe3ugii73jd2b2h2xafrwaiuuflqaxwavibiogq"
+    }
+  ],
+  "title": "Queried Compartment /okit and Sub-Compartments - Read/Write Copy",
+  "user_defined": {
+    "terraform": ""
+  },
+  "variables_schema": {
+    "groups": [
+      {
+        "default": "",
+        "description": "",
+        "name": "Undefined"
+      }
+    ],
+    "variables": []
+  },
+  "virtual_cloud_networks": [
+    {
+      "cidr_blocks": [
+        "172.16.0.0/16"
+      ],
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/rotter633@gmail.com",
+          "CreatedOn": "2023-12-03T03:19:02.126Z"
+        }
+      },
+      "display_name": "QMvcn03",
+      "dns_label": "qmvcn03",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-4676dbe6-18da-45c4-b67f-51f5dd1e2836",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqacpq7qqe3ugii73jd2b2h2xafrwaiuuflqaxwavibiogq",
+      "ipv6cidr_blocks": [],
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-d0c4941b-07b6-44d1-ba41-83c6130db6d4",
+      "read_only": false,
+      "resource_name": "Okit_f906b12f37c7441f9ddf27f2aaf506bc",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:19:02.196000+00:00",
+      "vcn_domain_name": "qmvcn03.oraclevcn.com"
+    },
+    {
+      "cidr_blocks": [
+        "192.168.0.0/16"
+      ],
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:23:54.847Z"
+        }
+      },
+      "display_name": "QMvcn02",
+      "dns_label": "qmvcn02",
+      "documentation": "",
+      "freeform_tags": {
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-78faf674-9fab-4a28-9624-9aacdc621be1",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqawxbuqlwffybpu5wwix2itf2onz53g4bayehfhr4ganoa",
+      "ipv6cidr_blocks": [],
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-a0ddce40-7750-42ea-b006-47d401474dae",
+      "read_only": false,
+      "resource_name": "Okit_8390953137384be49a52d555e79ff270",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.420000+00:00",
+      "vcn_domain_name": "qmvcn02.oraclevcn.com"
+    },
+    {
+      "cidr_blocks": [
+        "10.0.0.0/16"
+      ],
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaw54otb3tc2rns2xzfk7phgul4c6edror5pdrl3fnqypty477yvsq",
+      "defined_tags": {
+        "Oracle-Tags": {
+          "CreatedBy": "default/richard.rotter@oracle.com",
+          "CreatedOn": "2023-12-02T22:21:31.869Z"
+        }
+      },
+      "display_name": "QMvcn01",
+      "dns_label": "qmvcn01",
+      "documentation": "",
+      "freeform_tags": {
+        "VCN": "VCN-2023-12-02T22:19:58",
+        "okit_model_id": "okit-model-a1f42bcc-2eba-4320-8b6f-17fd7e83b2f1",
+        "okit_reference": "okit-0089dc04-d699-45c3-a48c-b7a5a66dbd70",
+        "okit_version": "0.56.0"
+      },
+      "id": "ocid1.vcn.oc1.eu-frankfurt-1.amaaaaaa6szh2sqaafzsenvmhfkvxbqhzuaabboxwrbnovbdn72jsaazwgpa",
+      "ipv6cidr_blocks": [],
+      "is_ipv6enabled": false,
+      "lifecycle_state": "AVAILABLE",
+      "okit_reference": "okit-a8cb6425-a809-4576-866a-05a14150e4b9",
+      "read_only": false,
+      "resource_name": "Okit_4f4e7209b32c4376a3ac0ec7b51e76fb",
+      "show_connections": false,
+      "time_created": "2023-12-03T03:01:16.411000+00:00",
+      "vcn_domain_name": "qmvcn01.oraclevcn.com"
+    }
+  ]
+}
